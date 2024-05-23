@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu-bar{
+    background: rgb(26, 196, 248);
+    text-align: centre;
+    margin-top: -10px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffff;
+}
+.menu-bar ul li{
+    width:135px;
+    margin:15px;
+    padding:15px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+background: rgb(19, 183, 219);
+border-radius: 3px;
+}
+body{
+    background-color: rgb(26, 196, 248);;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #fff;
+}
+h2, h3 {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.schedule {
+    margin-top: 40px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.schedule-header {
+    background-color: #056481;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+.schedule-item {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.speaker img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+.speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.speaker img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: rgb(7, 160, 187);
+    color: #fff;
+    padding: -20px 50px;
+    text-align: center;
+}
+.social-links {
+    margin-top: 20px;
+}
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.G{
+    color: #fff;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
